@@ -1,0 +1,85 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1462721206848-c6bdea1a8d61?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=cc2cde3f738b96ca45f6432ab039263f");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #888888;
+    background-color: rgba(22,22,22,1);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+}
+section{
+    padding-bottom: 10em;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Abril Fatface', cursive;
+    font-variant: small-caps;
+    color: #61cc67;
+}
+div>div>h1{
+    padding-bottom: 1em;
+}
+p{
+    line-height: 2em;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+}
+
+img{
+    border: white 5px solid;
+    max-height: 400px;
+    float: left;
+    max-width: 80%
+}
+blockquote{
+    padding-top: 3em;
+    color: white;
+}
+a, a:hover;{
+    text-decoration: none;
+    color: white;
+}
+.btn-success, .btn{
+    background-color: #62a060;
+    white-space: normal;
+}
+.content{
+    padding-top: 70px;
+}
+.jumbotron{
+    background-color: rgba(34, 34, 34, 0.9);
+    color: white;
+    margin-top: 10em;
+}
+.navbar, .navbar-inverse{
+    background-color: rgba(34, 34, 34, 0.95);
+    border-radius: 0px;
+    border: none;
+    color: white;
+    font-variant: small-caps;
+}
+.navbar-right{
+    padding-right: 20px;
+}
+.navbar-brand{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2em;
+    color: rgb(241, 241, 241);
+}
+#about, #book, #contact{
+    background-color: rgba(30,30,30,0.8);
+}
+#pricing, #research{
+    background-color: rgba(38,38,38,0.7);
+}
+#mainHeader{
+    font-variant: small-caps;
+}
+#page-footer{
+    background-color: rgba(11,11,11,0.8);
+    color: #333333;
+    min-height: 70px;
+    text-align: center;
+}

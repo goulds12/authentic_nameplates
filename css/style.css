@@ -4,8 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-color: #888888;
-    background-color: rgba(22,22,22,1);
+    background-color: #222222;
     font-family: "Ubuntu", sans-serif;
     font-size: 16px;
 }
@@ -32,16 +31,19 @@ img{
     max-height: 400px;
     padding: 1em 1em 1em 1em;
     float: left;
-    margin: 2em;
+    margin: 1em;
     max-width: 80%
 }
 blockquote{
     padding-top: 3em;
     color: white;
 }
-a, a:hover;{
+a{
     text-decoration: none;
     color: white;
+}
+a:hover, .active{
+    color: darkgreen;
 }
 .btn-success, .btn{
     background-color: #62a060;
